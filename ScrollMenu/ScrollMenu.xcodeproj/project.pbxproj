@@ -371,6 +371,7 @@
 				BECF97701D0534A400E4DA11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
