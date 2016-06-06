@@ -44,6 +44,8 @@ class ViewController: UITableViewController {
 			menuView.blurView.layer.cornerRadius = 3
 			menuView.blurView.layer.masksToBounds = true
 			
+			self.updateNavBar(20)
+			
 			appDelegate?.window?.addSubview(menuView)
 			menuView.slideInFromBottom()
 			menu = menuView
@@ -54,6 +56,7 @@ class ViewController: UITableViewController {
 		if !menuHidden {
 			UIView.animateWithDuration(0.3, delay: 0.0, options: UIViewAnimationOptions.CurveEaseInOut, animations: {
 				menu.frame =  CGRectMake(0, self.screenHeight, self.screenWidth, 70)
+				self.updateNavBar(20 - (20 + 44))
 				}, completion: { finished in
 					self.menuHidden = true
 			})
@@ -64,6 +67,7 @@ class ViewController: UITableViewController {
 		if menuHidden {
 			UIView.animateWithDuration(0.3, delay: 0.0, options: UIViewAnimationOptions.CurveEaseInOut, animations: {
 				menu.frame =  CGRectMake(0, self.screenHeight - 70, self.screenWidth, 70)
+				self.updateNavBar(20)
 				}, completion: { finished in
 					self.menuHidden = false
 			})
@@ -75,6 +79,14 @@ class ViewController: UITableViewController {
 			menu.removeFromSuperview()
 			self.menu = nil
 		}
+	}
+	
+	func updateNavBar(y: CGFloat) {
+		self.navigationController?.navigationBar.frame = CGRectMake(
+			(self.navigationController?.navigationBar.frame.origin.x)!,
+			y,
+			(self.navigationController?.navigationBar.frame.size.width)!,
+			(self.navigationController?.navigationBar.frame.size.height)!)
 	}
 
 	override func scrollViewDidScroll(scrollView: UIScrollView) {
