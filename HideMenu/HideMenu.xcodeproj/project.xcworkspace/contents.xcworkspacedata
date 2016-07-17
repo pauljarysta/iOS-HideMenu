@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:ScrollMenu.xcodeproj">
+      location = "self:/Users/pauljarysta/GoogleDrive/Lab/perso/iOS-HideMenu/HideMenu/HideMenu.xcodeproj">
    </FileRef>
 </Workspace>

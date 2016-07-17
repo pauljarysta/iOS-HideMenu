@@ -5,10 +5,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--HideMenu-->
         <scene sceneID="mWi-pc-rpm">
             <objects>
-                <tableViewController id="obM-E8-PR8" customClass="ViewController" customModule="ScrollMenu" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="obM-E8-PR8" customClass="ViewController" customModule="HideMenu" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="70" sectionHeaderHeight="28" sectionFooterHeight="28" id="XiB-n9-scN">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -28,7 +28,7 @@
                             <outlet property="delegate" destination="obM-E8-PR8" id="Ilo-KY-K2C"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="wqW-o9-j0w"/>
+                    <navigationItem key="navigationItem" title="HideMenu" id="wqW-o9-j0w"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8E0-4E-6df" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

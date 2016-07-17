@@ -18,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BECF975C1D0534A400E4DA11 /* ScrollMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BECF975C1D0534A400E4DA11 /* HideMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HideMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BECF975F1D0534A400E4DA11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BECF97611D0534A400E4DA11 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BECF97641D0534A400E4DA11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		BECF97531D0534A400E4DA11 = {
 			isa = PBXGroup;
 			children = (
-				BECF975E1D0534A400E4DA11 /* ScrollMenu */,
+				BECF975E1D0534A400E4DA11 /* HideMenu */,
 				BECF975D1D0534A400E4DA11 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,19 +52,19 @@
 		BECF975D1D0534A400E4DA11 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BECF975C1D0534A400E4DA11 /* ScrollMenu.app */,
+				BECF975C1D0534A400E4DA11 /* HideMenu.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BECF975E1D0534A400E4DA11 /* ScrollMenu */ = {
+		BECF975E1D0534A400E4DA11 /* HideMenu */ = {
 			isa = PBXGroup;
 			children = (
 				BECF97711D05365900E4DA11 /* Classes */,
 				BECF97751D05369400E4DA11 /* Resources */,
 				BECF97781D0536E000E4DA11 /* Supporting Files */,
 			);
-			path = ScrollMenu;
+			path = HideMenu;
 			sourceTree = "<group>";
 		};
 		BECF97711D05365900E4DA11 /* Classes */ = {
@@ -149,9 +149,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BECF975B1D0534A400E4DA11 /* ScrollMenu */ = {
+		BECF975B1D0534A400E4DA11 /* HideMenu */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BECF976E1D0534A400E4DA11 /* Build configuration list for PBXNativeTarget "ScrollMenu" */;
+			buildConfigurationList = BECF976E1D0534A400E4DA11 /* Build configuration list for PBXNativeTarget "HideMenu" */;
 			buildPhases = (
 				BECF97581D0534A400E4DA11 /* Sources */,
 				BECF97591D0534A400E4DA11 /* Frameworks */,
@@ -161,9 +161,9 @@
 			);
 			dependencies = (
 			);
-			name = ScrollMenu;
+			name = HideMenu;
 			productName = ScrollMenu;
-			productReference = BECF975C1D0534A400E4DA11 /* ScrollMenu.app */;
+			productReference = BECF975C1D0534A400E4DA11 /* HideMenu.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -181,7 +181,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BECF97571D0534A400E4DA11 /* Build configuration list for PBXProject "ScrollMenu" */;
+			buildConfigurationList = BECF97571D0534A400E4DA11 /* Build configuration list for PBXProject "HideMenu" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -194,7 +194,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BECF975B1D0534A400E4DA11 /* ScrollMenu */,
+				BECF975B1D0534A400E4DA11 /* HideMenu */,
 			);
 		};
 /* End PBXProject section */
@@ -337,7 +337,7 @@
 				INFOPLIST_FILE = ScrollMenu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pauljarysta.ScrollMenu;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = HideMenu;
 			};
 			name = Debug;
 		};
@@ -348,14 +348,14 @@
 				INFOPLIST_FILE = ScrollMenu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pauljarysta.ScrollMenu;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = HideMenu;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BECF97571D0534A400E4DA11 /* Build configuration list for PBXProject "ScrollMenu" */ = {
+		BECF97571D0534A400E4DA11 /* Build configuration list for PBXProject "HideMenu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BECF976C1D0534A400E4DA11 /* Debug */,
@@ -364,7 +364,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BECF976E1D0534A400E4DA11 /* Build configuration list for PBXNativeTarget "ScrollMenu" */ = {
+		BECF976E1D0534A400E4DA11 /* Build configuration list for PBXNativeTarget "HideMenu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BECF976F1D0534A400E4DA11 /* Debug */,

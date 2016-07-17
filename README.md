@@ -1,4 +1,4 @@
-# iOS-ScrollMenu
+# iOS-HideMenu
 Hide menu and navigation bar like Google app
 
 ###Version
@@ -11,5 +11,5 @@ Swift
 
 ###Screenshots
 <br>
-  <image width="280" src="https://raw.githubusercontent.com/pauljarysta/iOS-ScrollMenu/master/Sources/iOS-ScrollMenu.gif">
+  <image width="280" src="https://raw.githubusercontent.com/pauljarysta/iOS-HideMenu/master/Sources/iOS-HideMenu.gif">
 <br>

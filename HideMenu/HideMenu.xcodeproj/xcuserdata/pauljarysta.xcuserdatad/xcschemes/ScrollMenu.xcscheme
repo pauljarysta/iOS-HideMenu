@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BECF975B1D0534A400E4DA11"
-               BuildableName = "ScrollMenu.app"
-               BlueprintName = "ScrollMenu"
-               ReferencedContainer = "container:ScrollMenu.xcodeproj">
+               BuildableName = "HideMenu.app"
+               BlueprintName = "HideMenu"
+               ReferencedContainer = "container:HideMenu.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BECF975B1D0534A400E4DA11"
-            BuildableName = "ScrollMenu.app"
-            BlueprintName = "ScrollMenu"
-            ReferencedContainer = "container:ScrollMenu.xcodeproj">
+            BuildableName = "HideMenu.app"
+            BlueprintName = "HideMenu"
+            ReferencedContainer = "container:HideMenu.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BECF975B1D0534A400E4DA11"
-            BuildableName = "ScrollMenu.app"
-            BlueprintName = "ScrollMenu"
-            ReferencedContainer = "container:ScrollMenu.xcodeproj">
+            BuildableName = "HideMenu.app"
+            BlueprintName = "HideMenu"
+            ReferencedContainer = "container:HideMenu.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BECF975B1D0534A400E4DA11"
-            BuildableName = "ScrollMenu.app"
-            BlueprintName = "ScrollMenu"
-            ReferencedContainer = "container:ScrollMenu.xcodeproj">
+            BuildableName = "HideMenu.app"
+            BlueprintName = "HideMenu"
+            ReferencedContainer = "container:HideMenu.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
