@@ -24,7 +24,7 @@
 		BECF97641D0534A400E4DA11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BECF97661D0534A400E4DA11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BECF97691D0534A400E4DA11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		BECF976B1D0534A400E4DA11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ScrollMenu/Info.plist; sourceTree = "<group>"; };
+		BECF976B1D0534A400E4DA11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = HideMenu/Info.plist; sourceTree = "<group>"; };
 		BECF97791D05370B00E4DA11 /* UIView+Convenience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Convenience.swift"; sourceTree = "<group>"; };
 		BECF977C1D053D4A00E4DA11 /* MenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		BECF977E1D053D8600E4DA11 /* MenuView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuView.xib; sourceTree = "<group>"; };
@@ -162,7 +162,7 @@
 			dependencies = (
 			);
 			name = HideMenu;
-			productName = ScrollMenu;
+			productName = HideMenu;
 			productReference = BECF975C1D0534A400E4DA11 /* HideMenu.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -334,9 +334,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = ScrollMenu/Info.plist;
+				INFOPLIST_FILE = HideMenu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.pauljarysta.ScrollMenu;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pauljarysta.HideMenu;
 				PRODUCT_NAME = HideMenu;
 			};
 			name = Debug;
@@ -345,9 +345,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = ScrollMenu/Info.plist;
+				INFOPLIST_FILE = HideMenu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.pauljarysta.ScrollMenu;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pauljarysta.HideMenu;
 				PRODUCT_NAME = HideMenu;
 			};
 			name = Release;
