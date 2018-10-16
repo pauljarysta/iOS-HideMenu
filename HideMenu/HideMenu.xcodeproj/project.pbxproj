@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE93EEE021760BB800046A94 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE93EEDF21760BB800046A94 /* Helpers.swift */; };
 		BECF97601D0534A400E4DA11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECF975F1D0534A400E4DA11 /* AppDelegate.swift */; };
 		BECF97621D0534A400E4DA11 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECF97611D0534A400E4DA11 /* ViewController.swift */; };
 		BECF97651D0534A400E4DA11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BECF97631D0534A400E4DA11 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BE93EEDF21760BB800046A94 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		BECF975C1D0534A400E4DA11 /* HideMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HideMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BECF975F1D0534A400E4DA11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BECF97611D0534A400E4DA11 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				BECF97791D05370B00E4DA11 /* UIView+Convenience.swift */,
+				BE93EEDF21760BB800046A94 /* Helpers.swift */,
 			);
 			name = Helpers;
 			sourceTree = "<group>";
@@ -173,11 +176,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "Paul Jarysta";
 				TargetAttributes = {
 					BECF975B1D0534A400E4DA11 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 744F92Q6K9;
 					};
 				};
 			};
@@ -221,6 +225,7 @@
 				BECF97621D0534A400E4DA11 /* ViewController.swift in Sources */,
 				BECF977D1D053D4A00E4DA11 /* MenuView.swift in Sources */,
 				BECF97601D0534A400E4DA11 /* AppDelegate.swift in Sources */,
+				BE93EEE021760BB800046A94 /* Helpers.swift in Sources */,
 				BECF977A1D05370B00E4DA11 /* UIView+Convenience.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,13 +261,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -301,13 +316,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -326,6 +351,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -334,10 +360,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 744F92Q6K9;
 				INFOPLIST_FILE = HideMenu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pauljarysta.HideMenu;
 				PRODUCT_NAME = HideMenu;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -345,10 +373,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 744F92Q6K9;
 				INFOPLIST_FILE = HideMenu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pauljarysta.HideMenu;
 				PRODUCT_NAME = HideMenu;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
