@@ -7,7 +7,7 @@ Hide menu and navigation bar like Google app
 
 ###Tech
 
-Swift
+Swift 5
 
 ###Screenshots
 <br>
